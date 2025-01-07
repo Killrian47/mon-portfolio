@@ -1,5 +1,6 @@
 import './App.css';
 import AboutSection from './components/About';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
 import SkillsSection from './components/SkillsSection';
@@ -32,13 +33,14 @@ function App() {
       <AboutSection />
       <SkillsSection />
       <main className="container mx-auto px-4 py-12">
-        <h2 className="text-3xl font-semibold mb-6 text-center">Mes Projets</h2>
-        <div className="flex justify-around">
+        <h2 className="text-3xl font-semibold mb-10 text-center">Mes Projets</h2>
+        <div className="flex flex-wrap justify-center lg:justify-between gap-6 lg:px-20 xl:flex-nowrap xl:px-10">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
         </div>
       </main>
+      <Footer />
     </>
   );
 }
