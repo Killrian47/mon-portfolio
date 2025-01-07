@@ -2,6 +2,7 @@ import './App.css';
 import AboutSection from './components/About';
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
+import SkillsSection from './components/SkillsSection';
 
 const projects = [
   {
@@ -29,6 +30,7 @@ function App() {
     <>
       <Header />
       <AboutSection />
+      <SkillsSection />
       <main className="container mx-auto px-4 py-12">
         <h2 className="text-3xl font-semibold mb-6 text-center">Mes Projets</h2>
         <div className="flex justify-around">
