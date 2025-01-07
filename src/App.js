@@ -24,6 +24,24 @@ const projects = [
     imageUrl: 'https://via.placeholder.com/400x200',
     projectUrl: ''
   },
+  {
+    title: 'E-commerce',
+    description: 'Un site e-commerce pour vendre des produits en ligne.',
+    imageUrl: 'https://via.placeholder.com/400x200',
+    projectUrl: ''
+  },
+  {
+    title: 'E-commerce',
+    description: 'Un site e-commerce pour vendre des produits en ligne.',
+    imageUrl: 'https://via.placeholder.com/400x200',
+    projectUrl: ''
+  },
+  {
+    title: 'E-commerce',
+    description: 'Un site e-commerce pour vendre des produits en ligne.',
+    imageUrl: 'https://via.placeholder.com/400x200',
+    projectUrl: ''
+  },
 ]
 
 function App() {
@@ -36,9 +54,9 @@ function App() {
       <Header />
       <AboutSection />
       <SkillsSection />
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto px-4 py-12 mb-6">
         <h2 className="text-3xl font-semibold mb-10 text-center">Mes Projets</h2>
-        <div className="flex flex-wrap justify-center lg:justify-between gap-6 lg:px-20 xl:flex-nowrap xl:px-10">
+        <div className="flex flex-wrap justify-center lg:justify-center gap-20 lg:px-20 xl:px-10">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
