@@ -1,7 +1,7 @@
 const skills = [
-  "JavaScript", "TypeScript", "React", "Next.js", "Node.js",
-  "Express", "MongoDB", "PostgreSQL", "GraphQL", "REST API",
-  "HTML5", "CSS3", "Sass", "Tailwind CSS", "Git"
+  "HTML5", "CSS3", "JavaScript", "React", "PostgreSQL",
+  "REST API", "Sass", "Tailwind CSS", "Bootstrap", "Git", "Ruby", "Ruby on Rails",
+  "Figma"
 ]
 
 const SkillsSection = () => {
