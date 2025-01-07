@@ -29,6 +29,10 @@ const projects = [
 function App() {
   return (
     <>
+      <head>
+        <title>Mon Portfolio</title>
+        <link rel="icon" href="/logo.png" />
+      </head>
       <Header />
       <AboutSection />
       <SkillsSection />
