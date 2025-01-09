@@ -30,6 +30,22 @@ const projects = [
     projectUrl: 'https://github.com/Killrian47/uber-space',
     websiteUrl: 'https://uberspace-1996c56d7f47.herokuapp.com/'
   },
+  {
+    id: 4,
+    title: 'VideoClub',
+    description: 'Ce projet est une plateforme pour rechercher des films grâce à notre IA préféré ChatGPT. Il se basera sur vos films likés.',
+    imageUrl: '/images/videoclub.png',
+    projectUrl: 'https://github.com/Killrian47/videoclub',
+    websiteUrl: 'https://videoclub-18700c63dcb2.herokuapp.com',
+  },
+  {
+    id: 5,
+    title: 'Site intranet QSA Conseil',
+    description: '',
+    imageUrl: '',
+    projectUrl: '',
+    websiteUrl: ''
+  }
 ]
 
 function App() {
