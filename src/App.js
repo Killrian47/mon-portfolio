@@ -7,36 +7,22 @@ import SkillsSection from './components/SkillsSection';
 
 const projects = [
   {
-    title: 'Portfolio',
-    description: 'Mon portfolio personnel développé avec React.js et Tailwind CSS.',
-    imageUrl: 'https://via.placeholder.com/400x200',
-    projectUrl: ''
+    id: 1,
+    title: 'Portfolio V1',
+    description: 'Mon premier portfolio qui a été fait en HTML5, CSS3 et Bootstrap. Celui-ci m\'a servi à mettre en avant mes projets réalisés.',
+    projectUrl: 'https://github.com/Killrian47/portfolio',
+    imageUrl: '/images/portfolio.png',
+    websiteUrl: 'https://killianportierportfolio.netlify.app/',
   },
   {
+    id: 2,
     title: 'E-commerce',
     description: 'Un site e-commerce pour vendre des produits en ligne.',
     imageUrl: 'https://via.placeholder.com/400x200',
     projectUrl: ''
   },
   {
-    title: 'E-commerce',
-    description: 'Un site e-commerce pour vendre des produits en ligne.',
-    imageUrl: 'https://via.placeholder.com/400x200',
-    projectUrl: ''
-  },
-  {
-    title: 'E-commerce',
-    description: 'Un site e-commerce pour vendre des produits en ligne.',
-    imageUrl: 'https://via.placeholder.com/400x200',
-    projectUrl: ''
-  },
-  {
-    title: 'E-commerce',
-    description: 'Un site e-commerce pour vendre des produits en ligne.',
-    imageUrl: 'https://via.placeholder.com/400x200',
-    projectUrl: ''
-  },
-  {
+    id: 3,
     title: 'E-commerce',
     description: 'Un site e-commerce pour vendre des produits en ligne.',
     imageUrl: 'https://via.placeholder.com/400x200',
