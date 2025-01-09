@@ -10,23 +10,25 @@ const projects = [
     id: 1,
     title: 'Portfolio V1',
     description: 'Mon premier portfolio qui a été fait en HTML5, CSS3 et Bootstrap. Celui-ci m\'a servi à mettre en avant mes projets réalisés.',
-    projectUrl: 'https://github.com/Killrian47/portfolio',
     imageUrl: '/images/portfolio.png',
+    projectUrl: 'https://github.com/Killrian47/portfolio',
     websiteUrl: 'https://killianportierportfolio.netlify.app/',
   },
   {
     id: 2,
-    title: 'E-commerce',
-    description: 'Un site e-commerce pour vendre des produits en ligne.',
-    imageUrl: 'https://via.placeholder.com/400x200',
-    projectUrl: ''
+    title: 'CV en ligne de Superman',
+    description: 'Ce projet est le premier projet réalisé durant ma formation à la Wild Code School. Celui-ci consistait de faire un CV d\'un personnage fictif.',
+    imageUrl: '/images/projet1_wcs.png',
+    projectUrl: 'https://github.com/Killrian47/Projet1_WCS',
+    websiteUrl: 'https://projet-1-wcs.herokuapp.com/'
   },
   {
     id: 3,
-    title: 'E-commerce',
-    description: 'Un site e-commerce pour vendre des produits en ligne.',
-    imageUrl: 'https://via.placeholder.com/400x200',
-    projectUrl: ''
+    title: 'Uberspace',
+    description: 'Ce projet est une plateforme de mise en relation de client et de particulier pour de la location de vaisseaux spatiaux.',
+    imageUrl: '/images/uberspace.png',
+    projectUrl: 'https://github.com/Killrian47/uber-space',
+    websiteUrl: 'https://uberspace-1996c56d7f47.herokuapp.com/'
   },
 ]
 
