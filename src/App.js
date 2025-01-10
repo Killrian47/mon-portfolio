@@ -41,8 +41,16 @@ const projects = [
   {
     id: 5,
     title: 'Site intranet QSA Conseil',
-    description: '',
-    imageUrl: '',
+    description: 'Projet fait durant mon stage à QSA Conseil. Il consistait à faire une plateforme pour recevoir leurs échantillons de manière homogène',
+    imageUrl: '/images/qsa-project.png',
+    projectUrl: 'https://github.com/Killrian47/Projet-QSA',
+    websiteUrl: ''
+  },
+  {
+    id: 6,
+    title: 'Projet MakeSense',
+    description: 'Plateforme de prise de décisions et d\'idéation. Dernier projet fait durant ma formation à la Wild Code School.',
+    imageUrl: '/images/makesense-project.png',
     projectUrl: '',
     websiteUrl: ''
   }
