@@ -3,7 +3,6 @@ import ProjectCard from "./ProjectCard"
 const projects = [
   {
     id: 1,
-
     title: 'CV en ligne de Superman',
     description: 'Ce projet est le premier projet réalisé durant ma formation à la Wild Code School. Celui-ci consistait de faire un CV d\'un personnage fictif, ici Superman.',
     imageUrl: '/images/projet1_wcs.png',
@@ -15,7 +14,7 @@ const projects = [
     title: 'Martine part en voyage',
     description: 'Ce projet a été réalisé durant un hackathon pendant ma formation à la Wild Code School. Il consistait à faire un site décalé par rapport à une vieille série de livre.',
     imageUrl: '/images/martine-part-en-voyage.png',
-    projectUrl: '',
+    projectUrl: 'https://github.com/Killrian47/Hackathon_le5majeur',
     websiteUrl: ''
   },
   {
@@ -23,7 +22,7 @@ const projects = [
     title: 'Be Green, Be Clean',
     description: 'Ce projet a été réalisé durant un hackathon pendant ma formation à la Wild Code School. Il consistait à faire une plateforme pour mettre en relation des particuliers.',
     imageUrl: '/images/amazon-renting.png',
-    projectUrl: '',
+    projectUrl: 'https://github.com/Killrian47/hackathonJs',
     websiteUrl: '',
   },
   {
