@@ -13,6 +13,10 @@ function App() {
         <link rel="icon" href="/logo.png" />
       </head>
       <Header />
+      <div className="text-center py-10 bg-gray-100">
+        <h1 className="text-4xl font-bold mb-2">Mon Portfolio</h1>
+        <p className="text-xl text-gray-600">Killian Portier, Développeur Web Passionné</p>
+      </div>
       <AboutSection />
       <SkillsSection />
       <main className="container mx-auto px-4 py-12 mb-6">
